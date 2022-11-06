@@ -9,7 +9,7 @@ import {
   Marker,
   Popup
 } from "react-leaflet";
-import SpotsContainer from "../../MapComponents/SpotsContainer";
+import SpotsContainer from "../MapComponents/SpotsContainer.js";
 
 function LocationMarker() {
   const [position, setPosition] = useState(null);

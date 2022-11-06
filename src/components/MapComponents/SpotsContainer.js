@@ -1,5 +1,6 @@
 import React from "react";
 import { Marker, Popup } from "react-leaflet";
+import L from "leaflet";
 
 // Spot
 
@@ -54,11 +55,16 @@ let Spots = [
   }
 ];
 
+const markerIcon = new L.Icon({
+  iconUrl: require("../../pins/red_pin.png"),
+  iconSize: [35, 45]
+});
+
 export default function SpotsContainer() {
   return Spots.map((spot, index) => {
     return (
       <div key={index}>
-        <Marker position={spot.Coordinates}>
+        <Marker position={spot.Coordinates} icon={markerIcon}>
           <Popup>{spot.Name}</Popup>
         </Marker>
       </div>
