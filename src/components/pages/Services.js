@@ -1,34 +1,10 @@
 import React from "react";
-import { useState } from "react";
 import "leaflet/dist/leaflet.css";
 import "../../App.css";
-import {
-  MapContainer,
-  TileLayer,
-  useMapEvents,
-  Marker,
-  Popup
-} from "react-leaflet";
+import { MapContainer, TileLayer } from "react-leaflet";
 import SpotsContainer from "../MapComponents/SpotsContainer.js";
+import LocationMarker from "../MapComponents/LocationMarker";
 
-function LocationMarker() {
-  const [position, setPosition] = useState(null);
-  const map = useMapEvents({
-    click() {
-      map.locate();
-    },
-    locationfound(e) {
-      setPosition(e.latlng);
-      map.flyTo(e.latlng, map.getZoom());
-    }
-  });
-
-  return position === null ? null : (
-    <Marker position={position}>
-      <Popup>You are here</Popup>
-    </Marker>
-  );
-}
 export default function Services() {
   return (
     <>
