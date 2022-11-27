@@ -1,10 +1,9 @@
 import React from "react";
-import { useState } from "react";
+
 import "./FullscreenBtn.css";
+import "./MapContainer.css";
 
-export default function FullscreenBtn() {
-  const [fullScreen, setFullScreen] = useState(false);
-
+export default function FullscreenBtn({ fullScreen, setFullScreen }) {
   const toggle = () => {
     setFullScreen(!fullScreen);
   };

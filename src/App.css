@@ -9,6 +9,7 @@
   .services,
   .products,
   .sign-up {
+    padding: 1%;
     display: flex;
     height: 90vh;
     align-items: center;
@@ -17,12 +18,13 @@
   }
   
   .services {
-    background-image: url('../public/images/img-2.jpg');
+    background-image: url('../public/images/img-2.jpg'); 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
+  
   }
   
   .products {

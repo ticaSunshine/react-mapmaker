@@ -16,6 +16,6 @@
   
   .toggle--close{
     background-image: url(../../icons/png-clipart-computer-icons-close-button-trademark-logo-thumbnail.png);
-   z-index: 100000;
+    z-index: 1001;
     
   }
