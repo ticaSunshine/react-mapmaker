@@ -1,0 +1,21 @@
+.toggle--button{
+    height: 50px;
+    width: 50px;
+    border: none;
+    margin-left: 90%;
+    position: absolute;
+    top: 1%;
+    font-size: 25px;
+    background-image:url(../../icons/pngwing.com.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: none;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+  .toggle--close{
+    background-image: url(../../icons/png-clipart-computer-icons-close-button-trademark-logo-thumbnail.png);
+   z-index: 100000;
+    
+  }
