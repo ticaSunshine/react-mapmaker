@@ -64,8 +64,12 @@ export default function SpotsContainer() {
   return Spots.map((spot, index) => {
     return (
       <div key={index}>
-        <Marker position={spot.Coordinates} icon={markerIcon}>
-          <Popup>{spot.Name}</Popup>
+        <Marker position={spot.Coordinates} title={spot.Name} icon={markerIcon}>
+          <Popup>
+            {spot.Name}
+            <img src={spot.Fotke[1]} alt=" " />
+            <button className="btn">VIEW</button>
+          </Popup>
         </Marker>
       </div>
     );

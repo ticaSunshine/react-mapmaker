@@ -11,7 +11,7 @@ export default function FullscreenBtn({ fullScreen, setFullScreen }) {
   return (
     <button
       onClick={toggle}
-      className={"toggle--button " + (fullScreen ? "toggle--close" : "")}
+      className={"toggle--button " + (!fullScreen ? "toggle--close" : "")}
     ></button>
   );
 }

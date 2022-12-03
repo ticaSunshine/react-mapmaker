@@ -7,6 +7,8 @@ import { MapContainer, TileLayer } from "react-leaflet";
 import SpotsContainer from "../MapComponents/SpotsContainer.js";
 import LocationMarker from "../MapComponents/LocationMarker";
 import FullscreenBtn from "../MapComponents/FullscreenBtn";
+import ImageSlider from "../ImageSlider/ImageSlider";
+import "../ImageSlider/ImageSliderContainer.css";
 
 export default function Services() {
   const [fullScreen, setFullScreen] = useState(false);
@@ -36,6 +38,8 @@ export default function Services() {
           <SpotsContainer />
         </MapContainer>
       </div>
+
+      <ImageSlider className="ImageSliderContainer" />
     </div>
   );
 }
