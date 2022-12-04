@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./ImageSlider.css";
+import spots from "../../api/spots.json";
 
 const Thumbnail = ({ arr, image, index }) => {
   return (
@@ -67,14 +68,9 @@ export default function ImageSlider() {
           "https://images.unsplash.com/photo-1585084335487-f653d0859c14?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixlib=rb-1.2.1&q=80&w=500",
           "https://images.unsplash.com/photo-1583217874534-581393fd5325?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixlib=rb-1.2.1&q=80&w=500"
         ]}
-        /* imgs={[
-          "../../../public/0_helpers/Spotovi/Mimara/1.JPG",
-          "../../../public/0_helpers/Spotovi/Mimara/2.JPG",
-          "../../../public/0_helpers/Spotovi/Mimara/3.JPG",
-          "../../../public/0_helpers/Spotovi/Mimara/4.JPG",
-          "../../../public/0_helpers/Spotovi/Mimara/5.JPG"
-        ]} */
       />
     </div>
   );
 }
+
+/**/

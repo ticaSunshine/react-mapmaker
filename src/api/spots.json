@@ -1,0 +1,49 @@
+[
+    {
+      "Name": "Mimara",
+      "Description": "7 stairs",
+      "Address": "Rooseveltov trg 5, 10000, Zagreb",
+      "Coordinates": [45.80817, 15.967346],
+      "Tags": "Stairs, DIY, Ledges ",
+      "Fotke": [
+        "https://ik.imagekit.io/mapmakerSpot/Spotovi/Mimara/5.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1670181069266",
+        "http://localhost:3000/services/public/0_helpers/Spotovi/Mimara/1.JPG",
+        "http://localhost:3000/services/public/0_helpers/Spotovi/Mimara/2.JPG",
+        "http://localhost:3000/services/public/0_helpers/Spotovi/Mimara/3.JPG",
+        "http://localhost:3000/services/public/0_helpers/Spotovi/Mimara/4.JPG",
+        "http://localhost:3000/services/public/0_helpers/Spotovi/Mimara/5.JPG"
+      ]
+    },
+    {
+        "Name": "Đamija",
+        "Description": "Ledges and stairs",
+        "Address": "Trg žrtava fašizma, 10000, Zagreb",
+        "Coordinates": [45.8102, 15.9867],
+        "Tags": "Ledges, Stairs, Gaps ",
+        "Fotke": [
+        "/public/0_helpers/Spotovi/Đamija/0.JPG",
+        "/public/0_helpers/Spotovi/Đamija/1.JPG",
+        "/public/0_helpers/Spotovi/Đamija/2.JPG",
+        "/public/0_helpers/Spotovi/Đamija/3.JPG",
+        "/public/0_helpers/Spotovi/Đamija/4.JPG",
+        "/public/0_helpers/Spotovi/Đamija/5.JPG",
+        "/public/0_helpers/Spotovi/Đamija/5.JPG"
+      ]
+    },
+    {
+        "Name": "h",
+        "Description": "Lairs",
+        "Address": "Trg žrtava fašizma, 10000, Zagreb",
+        "Coordinates": [45.81, 15.98],
+        "Tags": "Ledges, Stairs, Gaps ",
+        "Fotke": [
+        "/public/0_helpers/Spotovi/Đamija/0.JPG",
+        "/public/0_helpers/Spotovi/Đamija/1.JPG",
+        "/public/0_helpers/Spotovi/Đamija/2.JPG",
+        "/public/0_helpers/Spotovi/Đamija/3.JPG",
+        "/public/0_helpers/Spotovi/Đamija/4.JPG",
+        "/public/0_helpers/Spotovi/Đamija/5.JPG",
+        "/public/0_helpers/Spotovi/Đamija/5.JPG"
+      ]
+    }
+  ]
