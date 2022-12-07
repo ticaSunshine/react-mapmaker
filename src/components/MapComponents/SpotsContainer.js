@@ -1,8 +1,8 @@
-import { React, useState } from "react";
-import { Marker, Popup, Image } from "react-leaflet";
+import { React } from "react";
+import { Marker, Popup } from "react-leaflet";
 import L from "leaflet";
-
-import spots from "../../api/spots.json";
+import spots from "../api/spots.json";
+import "../MapComponents/imageSize.css";
 
 // Spot
 
@@ -18,7 +18,7 @@ export default function SpotsContainer() {
         <Marker position={spot.Coordinates} title={spot.Name} icon={markerIcon}>
           <Popup>
             {spot.Name}
-            <img src={spot.Fotke[0]} alt="spotImg" />
+            <img className="imageSize" src={spot.Fotke[5]} alt={spot.Name} />
             <button className="btn">VIEW</button>
           </Popup>
         </Marker>

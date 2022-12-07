@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./ImageSlider.css";
-import spots from "../../api/spots.json";
 
 const Thumbnail = ({ arr, image, index }) => {
   return (
