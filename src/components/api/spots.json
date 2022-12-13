@@ -5,12 +5,12 @@
     "Coordinates": [45.80817, 15.967346],
     "Tags": "Stairs, DIY, Ledges ",
     "Fotke": [ 
-      "/public/0_helpers/Spotovi/Mimara/1.JPG",
-      "/public/0_helpers/Spotovi/Mimara/2.JPG",
-      "/public/0_helpers/Spotovi/Mimara/3.JPG",
-      "/public/0_helpers/Spotovi/Mimara/4.JPG",
-      "/public/0_helpers/Spotovi/Mimara/5.JPG",
-      "https://ik.imagekit.io/mapmakerSpot/Spotovi/Mimara/5.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1670181069266" 
+      "https://ik.imagekit.io/mapmakerSpot/Spotovi/Mimara/5.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1670181069266",
+      "https://ik.imagekit.io/mapmakerSpot/Spotovi/Mimara/4.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1670181069000",
+      "https://ik.imagekit.io/mapmakerSpot/Spotovi/Mimara/2.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1670181069012",
+      "https://ik.imagekit.io/mapmakerSpot/Spotovi/Mimara/1.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1670181068960",
+      "https://ik.imagekit.io/mapmakerSpot/Spotovi/Mimara/3.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1670181069018"
+      
      ] 
   },
 
@@ -21,13 +21,9 @@
     "Coordinates": [45.8102, 15.9867],
     "Tags": "Ledges, Stairs, Gaps ",
     "Fotke": [
-      "/public/0_helpers/Spotovi/Đamija/0.JPG",
-      "/public/0_helpers/Spotovi/Đamija/1.JPG",
-      "/public/0_helpers/Spotovi/Đamija/2.JPG",
-      "/public/0_helpers/Spotovi/Đamija/3.JPG",
-      "/public/0_helpers/Spotovi/Đamija/4.JPG",
-      "/public/0_helpers/Spotovi/Đamija/5.JPG",
-      "/public/0_helpers/Spotovi/Đamija/5.JPG"
+      "https://ik.imagekit.io/mapmakerSpot/Spotovi/%C4%90amija/2.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1670181068299",
+      "https://ik.imagekit.io/mapmakerSpot/Spotovi/%C4%90amija/1.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1670181068812",
+      "https://ik.imagekit.io/mapmakerSpot/Spotovi/%C4%90amija/3.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1670181068819"
     ]
   },
   {
@@ -37,13 +33,8 @@
     "Coordinates": [45.81, 15.98],
     "Tags": "Ledges, Stairs, Gaps ",
     "Fotke": [
-      "/public/0_helpers/Spotovi/Đamija/0.JPG",
-      "/public/0_helpers/Spotovi/Đamija/1.JPG",
-      "/public/0_helpers/Spotovi/Đamija/2.JPG",
-      "/public/0_helpers/Spotovi/Đamija/3.JPG",
-      "/public/0_helpers/Spotovi/Đamija/4.JPG",
-      "/public/0_helpers/Spotovi/Đamija/5.JPG",
-      "/public/0_helpers/Spotovi/Đamija/5.JPG"
+     "https://ik.imagekit.io/mapmakerSpot/Spotovi/%C4%90amija/0.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1670181067254",
+     "https://ik.imagekit.io/mapmakerSpot/Spotovi/%C4%90amija/6.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1670181067170"
     ]
   }
   

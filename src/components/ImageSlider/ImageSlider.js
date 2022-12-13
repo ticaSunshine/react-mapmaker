@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react";
+import SpotsContainer from "../MapComponents/SpotsContainer";
 import "./ImageSlider.css";
+import spots from "../api/spots.json";
+import Services from "../pages/Services";
 
 const Thumbnail = ({ arr, image, index }) => {
   return (
@@ -53,12 +56,20 @@ const SLideshow = ({ imgs }) => {
   );
 };
 
-export default function ImageSlider() {
+export default function ImageSlider(props) {
+  let activeMarker = <Services>{props.activeMarker}</Services>;
+  console.log(activeMarker);
+
   return (
     <div className="imageSlider">
       <h1>SlideShow</h1>
-      <SLideshow
-        imgs={[
+
+      <SLideshow imgs={activeMarker.props.children.Fotke} />
+    </div>
+  );
+}
+
+/*[
           "https://images.unsplash.com/photo-1585255318859-f5c15f4cffe9?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixlib=rb-1.2.1&q=80&w=500",
           "https://images.unsplash.com/photo-1584226761916-3fd67ab5ac3a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixlib=rb-1.2.1&q=80&w=500",
           "https://images.unsplash.com/photo-1585179292338-45ba1f62f082?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixlib=rb-1.2.1&q=80&w=500",
@@ -66,10 +77,5 @@ export default function ImageSlider() {
           "https://images.unsplash.com/photo-1584691267914-91c0bee55964?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixlib=rb-1.2.1&q=80&w=500",
           "https://images.unsplash.com/photo-1585084335487-f653d0859c14?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixlib=rb-1.2.1&q=80&w=500",
           "https://images.unsplash.com/photo-1583217874534-581393fd5325?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixlib=rb-1.2.1&q=80&w=500"
-        ]}
-      />
-    </div>
-  );
-}
-
-/**/
+        ]*/
+/*<Services>{props.activeMarker.spot.Fotke}</Services>*/

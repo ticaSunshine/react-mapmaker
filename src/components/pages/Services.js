@@ -12,6 +12,12 @@ import "../ImageSlider/ImageSliderContainer.css";
 
 export default function Services() {
   const [fullScreen, setFullScreen] = useState(false);
+  const [activeMarker, setActiveMarker] = useState({});
+
+  const handleActiveMarker = (data) => {
+    setActiveMarker(data);
+  };
+
   return (
     <div className="services">
       <div
@@ -22,7 +28,7 @@ export default function Services() {
       >
         <MapContainer
           className="map-container"
-          center={{ lat: 45.46611, lng: 16.37833 }}
+          center={{ lat: 45.80817, lng: 15.967346 }}
           zoom={13}
           scrollWheelZoom={false}
         >
@@ -35,11 +41,14 @@ export default function Services() {
             setFullScreen={setFullScreen}
           />
           <LocationMarker />
-          <SpotsContainer />
+          <SpotsContainer handleActiveMarker={handleActiveMarker} />
         </MapContainer>
       </div>
 
-      <ImageSlider className="ImageSliderContainer" />
+      <ImageSlider
+        className="ImageSliderContainer"
+        activeMarker={activeMarker}
+      />
     </div>
   );
 }
