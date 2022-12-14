@@ -7,16 +7,17 @@ import Services from "../pages/Services";
 const Thumbnail = ({ arr, image, index }) => {
   return (
     <div className="tumbnail">
-      {arr.map((imgsrc, i) => (
-        <img
-          key={i}
-          alt="imagetumbanil"
-          height="50"
-          src={imgsrc}
-          onClick={() => image(i)}
-          className={index === i ? "active" : ""}
-        />
-      ))}
+      {arr &&
+        arr.map((imgsrc, i) => (
+          <img
+            key={i}
+            alt="imagetumbanil"
+            height="50"
+            src={imgsrc}
+            onClick={() => image(i)}
+            className={index === i ? "active" : ""}
+          />
+        ))}
     </div>
   );
 };
@@ -46,7 +47,7 @@ const SLideshow = ({ imgs }) => {
 
   return (
     <div className="slideshow">
-      <img className="mainImg" src={imgs[index]} alt="img" />
+      <img className="mainImg" src={imgs && imgs[index]} alt="img" />
       <div className="actions">
         <button onClick={prev}>{"<"}</button>
         <button onClick={next}>{">"}</button>
