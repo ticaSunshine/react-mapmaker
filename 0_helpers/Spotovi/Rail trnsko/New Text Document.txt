@@ -1,0 +1,6 @@
+Name: Dugi rail, Trnsko
+
+Lat: 45.773
+Long: 15.96517
+
+Add: Trnsko ul. 29D, 10000 Zagreb, Croatia
