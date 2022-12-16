@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
-import SpotsContainer from "../MapComponents/SpotsContainer";
 import "./ImageSlider.css";
-import spots from "../api/spots.json";
 import Services from "../pages/Services";
 
 const Thumbnail = ({ arr, image, index }) => {
@@ -59,7 +57,6 @@ const SLideshow = ({ imgs }) => {
 
 export default function ImageSlider(props) {
   let activeMarker = <Services>{props.activeMarker}</Services>;
-  console.log(activeMarker);
 
   return (
     <div className="imageSlider">

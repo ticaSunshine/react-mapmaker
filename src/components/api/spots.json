@@ -27,14 +27,27 @@
     ]
   },
   {
-    "Name": "h",
-    "Description": "Lairs",
-    "Address": "Trg žrtava fašizma, 10000, Zagreb",
-    "Coordinates": [45.81, 15.98],
-    "Tags": "Ledges, Stairs, Gaps ",
+    "Name": "INA ledge",
+    "Description": "Long ledge",
+    "Address": "Vatroslava Jagića 33, 10000 Zagreb, Croatia",
+    "Coordinates": [45.80831, 15.96104],
+    "Tags": "Ledge",
     "Fotke": [
-     "https://ik.imagekit.io/mapmakerSpot/Spotovi/%C4%90amija/0.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1670181067254",
-     "https://ik.imagekit.io/mapmakerSpot/Spotovi/%C4%90amija/6.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1670181067170"
+     "https://ik.imagekit.io/mapmakerSpot/Spotovi/INA_ledge/Screenshot_20221216_191903_Map_Marker.png?ik-sdk-version=javascript-1.4.3&updatedAt=1671215631526",
+     "https://ik.imagekit.io/mapmakerSpot/Spotovi/INA_ledge/Screenshot_20221216_191919_Map_Marker.png?ik-sdk-version=javascript-1.4.3&updatedAt=1671215630824",
+     "https://ik.imagekit.io/mapmakerSpot/Spotovi/INA_ledge/Screenshot_20221216_191905_Map_Marker.png?ik-sdk-version=javascript-1.4.3&updatedAt=1671215630679"
+    ]
+  },
+  {
+    "Name": "Dugi rail, Trnsko",
+    "Description": "Long rail",
+    "Address": "Trnsko ul. 29D, 10000 Zagreb, Croatia",
+    "Coordinates": [45.773, 15.96517],
+    "Tags": "Round rail",
+    "Fotke": [
+     "https://ik.imagekit.io/mapmakerSpot/Spotovi/Rail_trnsko/Screenshot_20221216_193018_Map_Marker.png?ik-sdk-version=javascript-1.4.3&updatedAt=1671215627911",
+     "https://ik.imagekit.io/mapmakerSpot/Spotovi/Rail_trnsko/Screenshot_20221216_193028_Map_Marker.png?ik-sdk-version=javascript-1.4.3&updatedAt=1671215630464",
+     "https://ik.imagekit.io/mapmakerSpot/Spotovi/Rail_trnsko/Screenshot_20221216_192943_Map_Marker.png?ik-sdk-version=javascript-1.4.3&updatedAt=1671215631681"
     ]
   }
   
